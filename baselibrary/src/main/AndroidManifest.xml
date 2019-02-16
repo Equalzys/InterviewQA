@@ -9,7 +9,6 @@
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application>
 
@@ -26,18 +25,6 @@
                 android:name="design_height_in_dp"
                 android:value="667"/>
 
-        <activity
-                android:name="com.alipay.sdk.app.H5PayActivity"
-                android:configChanges="orientation|keyboardHidden|navigation"
-                android:exported="false"
-                android:screenOrientation="behind"
-                android:windowSoftInputMode="adjustResize|stateHidden"></activity>
-        <activity
-                android:name="com.alipay.sdk.auth.AuthActivity"
-                android:configChanges="orientation|keyboardHidden|navigation"
-                android:exported="false"
-                android:screenOrientation="behind"
-                android:windowSoftInputMode="adjustResize|stateHidden"></activity>
     </application>
     <!--支付宝-->
 
