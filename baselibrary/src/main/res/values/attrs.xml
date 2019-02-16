@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 进度条悬浮按钮 -->
+    <declare-styleable name="FloatingMusicMenu">
+        <attr name="fmm_progress_percent" format="integer"/>
+        <attr name="fmm_progress_color" format="color"/>
+        <attr name="fmm_progress" format="float"/>
+        <attr name="fmm_button_interval" format="dimension"/>
+        <attr name="fmm_cover" format="reference"/>
+        <attr name="fmm_backgroundTint" format="color"/>
+        <attr name="fmm_floating_direction" format="enum">
+            <enum name="up" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="down" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="Theme">
+        <attr name="customImageViewStyle" format="reference"/>
+    </declare-styleable>
+    <!-- 自定义圆角ImageView -->
+    <declare-styleable name="CustomImageView">
+        <attr name="civ_circle" format="boolean"/>
+        <attr name="civ_radius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ClearEditText">
+        <attr name="cet_mode">
+            <enum name="clear" value="0"/>
+            <enum name="pwd" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="etv_MaxLinesOnShrink" format="reference|integer"/>
+        <attr name="etv_EllipsisHint" format="reference|string"/><!--default is ..-->
+        <attr name="etv_ToExpandHint" format="reference|string"/><!--"to expand" hint string, default is "Expand"-->
+        <attr name="etv_ToShrinkHint" format="reference|string"/><!--"to shrink" hint string, default is "Shrink"-->
+        <attr name="etv_GapToExpandHint" format="reference|string"/><!--gap between "toExpandHint" and "trimmed text"-->
+        <attr name="etv_GapToShrinkHint" format="reference|string"/><!--gap between "toShrinkHint" and "trimmed text"-->
+        <attr name="etv_EnableToggle" format="reference|boolean"/><!--if toggle the state when click ExpandTextView-->
+        <attr name="etv_ToExpandHintShow" format="reference|boolean"/><!--if show "toExpandHint"-->
+        <attr name="etv_ToShrinkHintShow" format="reference|boolean"/><!--if show "toShrinkHint"-->
+        <attr name="etv_ToExpandHintColor" format="reference|color"/><!--text color of "toExpandHint"-->
+        <attr name="etv_ToShrinkHintColor" format="reference|color"/><!--text color of "toShrinkHint"-->
+        <attr name="etv_ToExpandHintColorBgPressed" format="reference|color"/><!--background color if "toExpandHint" pressed-->
+        <attr name="etv_ToShrinkHintColorBgPressed" format="reference|color"/><!--background color if "toShrinkHint" pressed-->
+        <attr name="etv_InitState" format="enum"><!--init state, default is shrink-->
+            <enum name="shrink" value="0"/>
+            <enum name="expand" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ImageCoverFlowView">
+        <attr name="visibleImage" format="integer"/>
+        <attr name="reflectionHeight" format="fraction"/>
+        <attr name="reflectionGap" format="dimension"/>
+        <attr name="topImageClickEnable" format="boolean"/>
+        <attr name="coverflowGravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="center_vertical" value="2"/>
+        </attr>
+        <attr name="coverflowLayoutMode" format="enum">
+            <enum name="match_parent" value="0"></enum>
+            <enum name="wrap_content" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="abav">
+        <attr name="TopColor" format="reference|color"/>
+        <attr name="DownColor" format="reference|color"/>
+        <attr name="RectCount" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="WaveView">
+
+        <attr name="backgroundColor" format="color"/>
+        <attr name="firstWaveColor" format="color"/>
+        <attr name="secondWaveColor" format="color"/>
+        <attr name="waveSize" format="dimension"/>
+        <attr name="waterProgress" format="float"/>
+        <!-- 振幅：10 到 50之间比较合适-->
+        <attr name="amplitude" format="integer"/>
+        <!-- 波动速度：1 到 6 之间比较合适 -->
+        <attr name="speed" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="verticalSpacing" format="dimension"/>
+        <attr name="flowlayout_isSingleLine" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_breakLine" format="boolean"/>
+        <attr name="layout_horizontalSpacing" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="WaitingDots">
+        <attr name="dotsColor" format="color"/>
+        <attr name="period" format="integer"/>
+        <attr name="jumpHeight" format="integer"/>
+        <attr name="autoPlay" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RecyclerViewBannerBase">
+        <attr name="interval" format="integer"/>
+        <attr name="showIndicator" format="boolean"/>
+        <attr name="indicatorSelectedSrc" format="color|reference"/>
+        <attr name="indicatorUnselectedSrc" format="color|reference"/>
+        <attr name="indicatorSpace" format="dimension|reference"/>
+        <attr name="indicatorMarginLeft" format="dimension|reference"/>
+        <attr name="indicatorMarginRight" format="dimension|reference"/>
+        <attr name="indicatorMarginBottom" format="dimension|reference"/>
+        <attr name="indicatorGravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="autoPlaying" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="peakValue" format="dimension"/>
+    <attr name="waveColor" format="color" />
+    <attr name="speedOne" format="integer" />
+    <attr name="speedTwo" format="integer" />
+    <attr name="waveHeight" format="dimension" />
+
+    <declare-styleable name="DoubleWaveView">
+        <attr name="peakValue" />
+        <attr name="waveColor" />
+        <attr name="speedOne" />
+        <attr name="speedTwo" />
+        <attr name="waveHeight" />
+
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/transparent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/view_white_bg_12r"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gv_loading"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/loading"/>
+
+        <TextView
+                android:id="@+id/tv_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载中..."
+                android:textColor="@color/color_666"
+                android:textSize="12sp"
+                android:lines="1"
+                android:ellipsize="end"/>
+
+
+    </LinearLayout>
+</LinearLayout>

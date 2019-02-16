@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">baselib</string>
+    <string name="tag_is_center">tagIsCenter</string>
+    <string name="loading_description">加载中</string>
+    <string name="empty_description">这里什么都没有哦~</string>
+    <string name="error_description">哎呀~ 出错了！</string>
+    <string name="error_btn_title">点击重试</string>
+
+    <string name="et_filter_pwd">.0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="et_filter_idcardcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="et_filter_emailcode">.0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@</string>
+    <string name="et_filter_money">.0123456789</string>
+    <string name="et_filter_numbercode">0123456789</string>
+    <string name="main_phone_location">这个应用程序需要访问您的一些权限</string>
+    <string name="readstrogestate">需要内存卡读写权限</string>
+    <string name="rationale_ask_again">
+       应用需要一些权限,否则可能无法正常运行,现在去修改应用权限。
+    </string>
+    <string name="title_settings_dialog">权限请求</string>
+    <string name="savephoto">保存图片</string>
+    <string name="to_expand_hint">展开</string>
+    <string name="to_shrink_hint">收起</string>
+    <string name="more_video"><u>更多视频</u></string>
+    <string name="error_gif">宽或高大小应至少为 %1$dp,并且文件大小不应超过 %2$sM</string>
+</resources>

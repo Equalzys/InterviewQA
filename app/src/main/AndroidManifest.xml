@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="com.zys.qa">
+
+    <application
+            android:name=".AppContext"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launch"
+            android:label="${app_name}"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:roundIcon="@mipmap/ic_launch"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:replace="android:label">
+
+        <meta-data
+                android:name="com.lookbi.baselibrary.imageloader.BaseGlideModule"
+                android:value="GlideModule"/>
+
+        <meta-data
+                android:name="design_width_in_dp"
+                android:value="375"/>
+        <meta-data
+                android:name="design_height_in_dp"
+                android:value="667"/>
+
+        <activity
+                android:name=".ui.SplashActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@style/WelcomeEntranceActionBarTheme"
+                android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".ui.main.MainActivity"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+        </activity>
+        <activity
+                android:name=".ui.qa_info.QAInfoActivity"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+        </activity>
+        <activity
+                android:name=".ui.search.SearchActivity"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+        </activity>
+        <activity
+                android:name=".ui.feedback.FeedBackActivity"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+        </activity>
+        <activity
+                android:name=".ui.h5.BaseH5Activity"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+        </activity>
+
+        <provider
+                android:name="android.support.v4.content.FileProvider"
+                android:authorities="${applicationId}.fileprovider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths"/>
+        </provider>
+    </application>
+
+</manifest>

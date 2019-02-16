@@ -1,0 +1,10 @@
+<resources>
+
+
+    <!-- 欢迎界面主题 -->
+    <style name="WelcomeEntranceActionBarTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@mipmap/img_splash</item>
+    </style>
+
+</resources>
