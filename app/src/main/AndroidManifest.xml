@@ -14,7 +14,7 @@
             tools:replace="android:label">
 
         <meta-data
-                android:name="com.lookbi.baselibrary.imageloader.BaseGlideModule"
+                android:name="com.zys.baselibrary.imageloader.BaseGlideModule"
                 android:value="GlideModule"/>
 
         <meta-data
@@ -64,6 +64,12 @@
         </activity>
         <activity
                 android:name=".ui.h5.BaseH5Activity"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+        </activity>
+        <activity
+                android:name=".ui.add_qa.AddQAActivity"
                 android:launchMode="singleTop"
                 android:screenOrientation="portrait"
                 android:windowSoftInputMode="adjustPan|stateAlwaysHidden">

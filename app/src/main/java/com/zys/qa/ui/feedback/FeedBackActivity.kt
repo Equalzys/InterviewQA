@@ -5,8 +5,8 @@ import android.support.v7.widget.LinearLayoutManager
 import android.text.TextUtils
 import android.view.View
 import android.view.inputmethod.EditorInfo
-import com.lookbi.baselibrary.base.BaseMVPActivity
-import com.lookbi.baselibrary.lisenter.OnItemClickListener
+import com.zys.baselibrary.base.BaseMVPActivity
+import com.zys.baselibrary.lisenter.OnItemClickListener
 import com.zys.qa.R
 import com.zys.qa.adapter.SearchAdapter
 import com.zys.qa.ui.qa_info.QAInfoActivity

@@ -13,9 +13,9 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import com.hjq.toast.ToastUtils
-import com.lookbi.baselibrary.base.BaseActivity
-import com.lookbi.baselibrary.base.BaseMVPActivity
-import com.lookbi.baselibrary.lisenter.OnItemClickListener
+import com.zys.baselibrary.base.BaseActivity
+import com.zys.baselibrary.base.BaseMVPActivity
+import com.zys.baselibrary.lisenter.OnItemClickListener
 import com.zys.qa.R
 import com.zys.qa.adapter.QAListAdapter
 import com.zys.qa.adapter.SearchAdapter

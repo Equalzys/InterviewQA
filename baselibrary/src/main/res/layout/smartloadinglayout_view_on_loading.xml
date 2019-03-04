@@ -19,7 +19,7 @@
             android:textSize="16sp"
             android:textColor="#808080"/>
 
-        <com.lookbi.baselibrary.views.pagestatus.DotsTextView
+        <com.zys.baselibrary.views.pagestatus.DotsTextView
             android:id="@+id/dots"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

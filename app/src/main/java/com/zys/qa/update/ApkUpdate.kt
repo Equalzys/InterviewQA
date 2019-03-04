@@ -6,11 +6,11 @@ import android.content.pm.PackageManager
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.text.TextUtils
-import com.lookbi.baselibrary.bean.NewApkInfo
-import com.lookbi.baselibrary.net.RxSchedulers
-import com.lookbi.baselibrary.utils.DialogUtils
-import com.lookbi.baselibrary.utils.LogUtil
-import com.lookbi.baselibrary.utils.UtilTools
+import com.zys.baselibrary.bean.NewApkInfo
+import com.zys.baselibrary.net.RxSchedulers
+import com.zys.baselibrary.utils.DialogUtils
+import com.zys.baselibrary.utils.LogUtil
+import com.zys.baselibrary.utils.UtilTools
 import com.zys.qa.net.Api
 import com.zys.qa.net.BaseObserver
 import com.zys.qa.utils.ToastUtil

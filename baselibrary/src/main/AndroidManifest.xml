@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.lookbi.baselibrary">
+          package="com.zys.baselibrary">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
@@ -13,7 +13,7 @@
     <application>
 
         <meta-data
-                android:name="com.lookbi.baselibrary.imageloader.BaseGlideModule"
+                android:name="com.zys.baselibrary.imageloader.BaseGlideModule"
                 android:value="GlideModule"/>
 
         <uses-library android:name="org.apache.http.legacy" android:required="false" />

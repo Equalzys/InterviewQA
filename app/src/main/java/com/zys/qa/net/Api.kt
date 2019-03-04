@@ -1,6 +1,6 @@
 package com.zys.qa.net
 
-import com.lookbi.baselibrary.net.RetrofitFactory
+import com.zys.baselibrary.net.RetrofitFactory
 import com.zys.qa.net.HttpUrl
 
 class Api(baseUrl: String) : RetrofitFactory(baseUrl) {

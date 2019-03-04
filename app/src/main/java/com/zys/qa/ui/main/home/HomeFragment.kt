@@ -3,8 +3,8 @@ package com.zys.qa.ui.main.home
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.View
-import com.lookbi.baselibrary.base.BaseMVPFragment
-import com.lookbi.baselibrary.lisenter.OnItemClickListener
+import com.zys.baselibrary.base.BaseMVPFragment
+import com.zys.baselibrary.lisenter.OnItemClickListener
 import com.zys.qa.constant.NoCodeConstant
 import com.zys.qa.R
 import com.zys.qa.utils.ToastUtil
@@ -12,6 +12,7 @@ import com.scwang.smartrefresh.layout.api.RefreshLayout
 import com.scwang.smartrefresh.layout.listener.OnRefreshLoadMoreListener
 import com.zys.qa.adapter.QAListAdapter
 import com.zys.qa.bean.QAList
+import com.zys.qa.ui.add_qa.AddQAActivity
 import com.zys.qa.ui.qa_info.QAInfoActivity
 import com.zys.qa.ui.search.SearchActivity
 import kotlinx.android.synthetic.main.fragment_home.*
@@ -56,6 +57,9 @@ class HomeFragment : BaseMVPFragment<HomeContract.IView, HomePresentImpl>(), Hom
         })
         iv_search.setOnClickListener {
             startActivity<SearchActivity>()
+        }
+        iv_add.setOnClickListener {
+            startActivity<AddQAActivity>()
         }
 
     }

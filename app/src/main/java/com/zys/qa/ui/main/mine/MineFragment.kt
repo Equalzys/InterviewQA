@@ -1,8 +1,8 @@
 package com.zys.qa.ui.main.mine
 
-import com.lookbi.baselibrary.base.BaseFragment
-import com.lookbi.baselibrary.utils.LogUtil
-import com.lookbi.baselibrary.utils.UtilTools
+import com.zys.baselibrary.base.BaseFragment
+import com.zys.baselibrary.utils.LogUtil
+import com.zys.baselibrary.utils.UtilTools
 import com.zys.qa.R
 import com.zys.qa.ui.feedback.FeedBackActivity
 import com.zys.qa.ui.h5.BaseH5Activity

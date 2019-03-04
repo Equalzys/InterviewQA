@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.lookbi.baselibrary.lisenter.OnItemClickListener
-import com.lookbi.baselibrary.lisenter.OnItemLongClickListener
+import com.zys.baselibrary.lisenter.OnItemClickListener
+import com.zys.baselibrary.lisenter.OnItemLongClickListener
 import com.zys.qa.R
 import com.zys.qa.bean.QAList
 import kotlinx.android.synthetic.main.item_qa_search.view.*

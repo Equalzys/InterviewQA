@@ -2,7 +2,7 @@ package com.zys.qa.ui.h5
 import android.os.Bundle
 import android.text.TextUtils
 import android.webkit.WebSettings
-import com.lookbi.baselibrary.base.BaseMVPActivity
+import com.zys.baselibrary.base.BaseMVPActivity
 import com.zys.qa.R
 import com.zys.qa.bean.BaseH5
 import com.zys.qa.net.HttpUrl

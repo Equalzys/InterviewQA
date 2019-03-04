@@ -1,4 +1,4 @@
-package com.lookbi.baselibrary;
+package com.zys.baselibrary;
 
 import org.junit.Test;
 

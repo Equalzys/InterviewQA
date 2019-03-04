@@ -6,8 +6,8 @@ import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentPagerAdapter
 import android.view.KeyEvent
 import android.view.View
-import com.lookbi.baselibrary.base.BaseActivity
-import com.lookbi.baselibrary.utils.ActivityManager
+import com.zys.baselibrary.base.BaseActivity
+import com.zys.baselibrary.utils.ActivityManager
 import com.zys.qa.utils.ToastUtil
 import com.zys.qa.utils.UIUtils
 import com.zys.qa.R

@@ -1,7 +1,7 @@
 package com.zys.qa.ui.h5
 
-import com.lookbi.baselibrary.base.IBasePresenter
-import com.lookbi.baselibrary.base.IBaseView
+import com.zys.baselibrary.base.IBasePresenter
+import com.zys.baselibrary.base.IBaseView
 import com.zys.qa.bean.BaseH5
 
 class BaseH5Contract{

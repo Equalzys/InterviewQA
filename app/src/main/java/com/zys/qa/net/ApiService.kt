@@ -1,8 +1,8 @@
 package com.zys.qa.net
 
-import com.lookbi.baselibrary.bean.BaseBean
-import com.lookbi.baselibrary.bean.BaseBoolean
-import com.lookbi.baselibrary.bean.NewApkInfo
+import com.zys.baselibrary.bean.BaseBean
+import com.zys.baselibrary.bean.BaseBoolean
+import com.zys.baselibrary.bean.NewApkInfo
 import com.zys.qa.bean.BaseH5
 import com.zys.qa.bean.QAList
 import io.reactivex.Observable
@@ -31,10 +31,15 @@ interface ApiService {
     @GET(HttpUrl.ABOUT_US)
     abstract fun getAboutus(@Query("h5id") h5id: Int): Observable<BaseBean<BaseH5>>
 
-    //搜索列表
+    //问题反馈
     @FormUrlEncoded
     @POST(HttpUrl.V_ADD_FEEDBACK)
     abstract fun addFeedBack(@FieldMap hashMap: HashMap<String, String>): Observable<BaseBean<BaseBoolean>>
+
+    //添加面试题
+    @FormUrlEncoded
+    @POST(HttpUrl.QA_ADD)
+    abstract fun addQA(@FieldMap hashMap: HashMap<String, String>): Observable<BaseBean<BaseBoolean>>
 
 
 }

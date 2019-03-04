@@ -5,7 +5,7 @@ import android.text.TextUtils
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.webkit.WebSettings
-import com.lookbi.baselibrary.base.BaseMVPActivity
+import com.zys.baselibrary.base.BaseMVPActivity
 import com.zys.qa.R
 import com.zys.qa.bean.QAList
 import com.zys.qa.net.HttpUrl

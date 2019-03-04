@@ -6,7 +6,7 @@ import android.os.Build
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.lookbi.baselibrary.base.BaseActivity
+import com.zys.baselibrary.base.BaseActivity
 import com.zys.qa.R
 import com.zys.qa.ui.main.MainActivity
 import org.jetbrains.anko.startActivity

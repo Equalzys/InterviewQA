@@ -11,13 +11,13 @@
             android:layout_height="match_parent">
 
 
-        <com.lookbi.baselibrary.views.NoScrollViewPager
+        <com.zys.baselibrary.views.NoScrollViewPager
                 android:id="@+id/vp_main"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_above="@+id/ll_mian">
 
-        </com.lookbi.baselibrary.views.NoScrollViewPager>
+        </com.zys.baselibrary.views.NoScrollViewPager>
 
 
         <LinearLayout

@@ -18,6 +18,8 @@ class HttpUrl {
         const val V_ADD_FEEDBACK = "fb/add"
         //关于我们
         const val ABOUT_US = "h5/info"
+        //添加面试题
+        const val QA_ADD = "qa/add"
 
     }
 }
