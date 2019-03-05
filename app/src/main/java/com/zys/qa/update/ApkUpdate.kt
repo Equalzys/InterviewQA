@@ -53,17 +53,19 @@ class ApkUpdate(mContext: Activity) {
             override fun onSuccess(info: NewApkInfo?) {
                 if (null != info) {
                     val newver = Integer.parseInt(
-                        info!!.apkVersion?.trim()?.replace("\\.", "")
+                        info.apkVersion?.trim()?.replace(".","")!!
+//                        info!!.apkVersion?.trim()?.replace("\\.", "")
                     )
                     val ver = Integer.parseInt(
-                        UtilTools.getVersion(context).trim().replace("\\.", "")
+//                        UtilTools.getVersion(context).trim().replace("\\.", "")
+                        UtilTools.getVersion(context).trim().replace(".", "")
                     )
                     LogUtil.e("apk", "newver=$newver,ver=$ver")
                     if (newver > ver) {
                         LogUtil.e("下载apk")
                         if (isShowPoup) {
                             showDialog(
-                                info!!.apkVersion, info!!.newApkUrl, info!!.updateMessage
+                                info.apkVersion, info.newApkUrl, info.updateMessage
                             )
                         }
                         if (onUpdateLisenter != null) {

@@ -28,7 +28,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="版本更新"
-                android:textColor="@color/white"
+                android:textColor="#0C74FF"
                 android:textSize="18sp"
                 />
 
@@ -80,7 +80,7 @@
                 android:background="@color/white"
                 android:text="现在更新"
                 android:padding="5dp"
-                android:textColor="@color/color_333"
+                android:textColor="#0C74FF"
                 android:textSize="15sp"/>
 
         </RelativeLayout>
