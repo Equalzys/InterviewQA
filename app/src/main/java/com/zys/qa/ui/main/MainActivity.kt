@@ -1,5 +1,6 @@
 package com.zys.qa.ui.main
 
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.os.Process
 import android.support.v4.app.Fragment
@@ -123,6 +124,21 @@ class MainActivity  : BaseActivity(), View.OnClickListener {
         vp_main.setCurrentItem(i, false)
     }
 
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int, permissions: Array<String>,
+        grantResults: IntArray
+    ) {
+        if (requestCode == 0x110) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                apkUpdate?.downLoadApk();
+            } else {
+                ToastUtil.show("您未授权使用储存权限，无法下载更新，请在系统【设置】中打开相应权限")
+            }
+            return
+        }
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+    }
 
 
 }

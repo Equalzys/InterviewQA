@@ -22,6 +22,7 @@ class ApkUpdate(mContext: Activity) {
     private var apkurl: String? = null
 
     companion object {
+        @JvmField
         var isDownLoad = false
     }
 

@@ -75,6 +75,12 @@
                 android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
         </activity>
 
+        <receiver android:name=".receiver.InstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
         <provider
                 android:name="android.support.v4.content.FileProvider"
                 android:authorities="${applicationId}.fileprovider"
