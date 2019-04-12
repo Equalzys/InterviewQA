@@ -2,7 +2,10 @@ package com.zys.qa.update
 
 import android.Manifest
 import android.app.Activity
+import android.app.DownloadManager
+import android.content.IntentFilter
 import android.content.pm.PackageManager
+import android.os.Build
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.text.TextUtils
@@ -13,6 +16,7 @@ import com.zys.baselibrary.utils.LogUtil
 import com.zys.baselibrary.utils.UtilTools
 import com.zys.qa.net.Api
 import com.zys.qa.net.BaseObserver
+import com.zys.qa.receiver.InstallReceiver
 import com.zys.qa.utils.ToastUtil
 import java.io.File
 
@@ -186,6 +190,12 @@ class ApkUpdate(mContext: Activity) {
     }
 
     fun downLoadApk() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            val recevierFilter = IntentFilter()
+            recevierFilter.addAction(DownloadManager.ACTION_DOWNLOAD_COMPLETE)
+            val receiver = InstallReceiver()
+            context.registerReceiver(receiver, recevierFilter)
+        }
         val midrname = "/sdcard" + UpdateCommon.SAVE_APP_LOCATION + File.separator
         UtilTools.isFoldersExists(midrname)
 
