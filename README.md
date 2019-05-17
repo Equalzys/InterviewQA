@@ -13,19 +13,13 @@ app使用 Kotlin+MVP+RxJava2+Retrofit2；（开源源码为1.0.2版本）
 
 App下载地址：
 
-1.0.2版本不再维护：https://www.pgyer.com/android_iqa
-
-2.0.0上架地址：
-
-酷安网：https://www.coolapk.com/apk/230758
+1.0.2版本：https://www.pgyer.com/android_iqa
 
 
-2.0.0版本：
+后续计划：
 - 新增用户注册、登录
 - 全新的编辑模式-MarkDown
 - 多种面试题类型：Android，Java，C++，计算机网络，算法/机器学习，前端等等.
-
-后续计划：
 - 收藏功能、本地缓存功能
 - 添加专项练习题、查看用户资料
 - 发布面试心得、用户点赞、评论
