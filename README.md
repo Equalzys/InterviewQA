@@ -15,7 +15,10 @@ App下载地址：
 
 1.0.2版本不再维护：https://www.pgyer.com/android_iqa
 
-2.0.0版本：https://fir.im/qmst
+2.0.0上架地址：
+
+酷安网：https://www.coolapk.com/apk/230758
+
 
 2.0.0版本：
 - 新增用户注册、登录
