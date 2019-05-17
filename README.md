@@ -8,18 +8,14 @@ app使用 Kotlin+MVP+RxJava2+Retrofit2；
 4、根据标题字段模糊搜索  
 5、问题反馈  
 
-计划：
-1、添加用户注册
-2、添加个人面试题审核结果通知
+
 
 启动页不合主题：因为不会PS作图，就只好在以前项目里找了张启动图，见谅啊~~~
 
 App下载地址：
-https://www.pgyer.com/android_iqa
+1.0.2版本不再维护：https://www.pgyer.com/android_iqa
+2.0.0版本：https://fir.im/qmst
 
-APP下载二维码（蒲公英）：
-
-<div align=center><img src="https://github.com/Equalzys/InterviewQA/blob/master/screenshot/C3C5BB7D-2EAC-4BE5-A3DD-D49F50ADD34C.png" width="200"/>
 
 预览图：
 
