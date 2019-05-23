@@ -15,7 +15,9 @@ App下载地址：
 
 1.0.2版本不再维护：https://www.pgyer.com/android_iqa
 
-2.0.0版本：https://fir.im/iqamst
+2.0.0：
+
+酷安上架地址：https://www.coolapk.com/apk/230804
 
 
 2.0.0版本：
